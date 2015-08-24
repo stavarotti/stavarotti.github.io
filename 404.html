@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /404.html
+---
+
+<h2>A gnome stole this page</h2>
+
+{% if site.related_posts > 0 %}
+  <p>In the mean time, feel free to peruse these other musings:</p>
+
+  <ul class="post-list">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>Head on <a href="/">home</a>.</p>
+{% endif %}
