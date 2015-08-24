@@ -1,0 +1,17 @@
+# Site settings
+title: stavarotti
+author: Steve Chikwaya
+email:
+description: > # this means to ignore newlines until "baseurl:"
+  Things I find interesting.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://stavarotti.github.io" # the base hostname & protocol for your site
+twitter_username: stavarotti
+github_username:  stavarotti
+
+# Build settings
+markdown: kramdown
+
+# gems
+gems:
+  - jekyll-feed

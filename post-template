@@ -1,0 +1,17 @@
+---
+layout: post
+title:  ""
+date:   2015-08-23 11:38:07
+categories: javascript
+tags: es6
+---
+
+Blurb.  [Blurb link][blurb-link]
+
+Snippets:
+
+{% highlight javascript %}
+console.log('Yep yep');
+{% endhighlight %}
+
+[blurb-link]:      http://jekyllrb.com
