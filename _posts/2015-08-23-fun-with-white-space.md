@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Fun with White Space"
-date:   2015-08-23 22:00:00
+title: "Fun with White Space"
+date: 2015-08-23 22:00:00
+categories: javascript
+tags: es5, es6
 ---
 
 JavaScript developers are used to the standard set of [punctuators][punctuators] however, a closer look at the [line termination][lineterminator] rules for postfix/prefix operators, along with treatment of [white space characters][whitespace], and suddenly, a _new_ set of faux operators come to life.
@@ -19,11 +21,11 @@ while(x --> 0) {
 }
 
 // Prints
-> x:  4
-> x:  3
-> x:  2
-> x:  1
-> x:  0
+> x: 4
+> x: 3
+> x: 2
+> x: 1
+> x: 0
 {% endhighlight %}
 
 {% highlight javascript linenos %}
@@ -35,11 +37,11 @@ while(x --!== 0) {
 }
 
 // Prints
-> x:  4
-> x:  3
-> x:  2
-> x:  1
-> x:  0
+> x: 4
+> x: 3
+> x: 2
+> x: 1
+> x: 0
 {% endhighlight %}
 
 {% highlight javascript linenos %}
@@ -51,10 +53,10 @@ while(0 >++ x) {
 }
 
 // Prints
-> x:  -4
-> x:  -3
-> x:  -2
-> x:  -1
+> x: -4
+> x: -3
+> x: -2
+> x: -1
 {% endhighlight %}
 
 {% highlight javascript linenos %}
